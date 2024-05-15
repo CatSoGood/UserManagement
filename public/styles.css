@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd6f7; /* สีชมพูอ่อน */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff0f5; /* สีชมพูเทาอ่อน */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff1493; /* สีชมพูเข้ม */
+}
+
+h2 {
+    color: #800080; /* สีม่วงเข้ม */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff69b4; /* สีชมพูสด */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d3468c; /* สีชมพูเข้ม */
+}
+
+.hidden {
+    display: none;
+}
+
+.user-entry {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* สีขาว */
+    border-radius: 5px;
+}
+
+.user-entry h3 {
+    margin: 0;
+    color: #4b0082; /* สีม่วงเข้ม */
+}
+
+.user-entry p {
+    margin: 5px 0;
+    color: #6a5acd; /* สีม่วงอ่อน */
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-update, .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.btn-update {
+    background-color: #7b68ee; /* สีน้ำเงินอ่อน */
+    color: white;
+}
+
+.btn-update:hover {
+    background-color: #483d8b; /* สีน้ำเงินเข้ม */
+}
+
+.btn-delete {
+    background-color: #ff6347; /* สีแดง */
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #b22222; /* สีแดงเข้ม */
+}

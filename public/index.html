@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-users"></i> User Management</h1>
+        
+        <section id="all-users">
+            <h2><i class="fas fa-user-friends"></i> All Users</h2>
+            <div id="users"></div>
+        </section>
+        
+        <section id="create-user">
+            <h2><i class="fas fa-user-plus"></i> Create User</h2>
+            <form id="create-user-form">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="address" placeholder="Address" required>
+                <button type="submit"><i class="fas fa-plus"></i> Create</button>
+            </form>
+        </section>
+        
+        <section id="update-user">
+            <h2><i class="fas fa-edit"></i> Update User</h2>
+            <form id="update-user-form" class="hidden">
+                <input type="text" id="update-id" placeholder="User ID" required>
+                <input type="text" id="update-name" placeholder="Name" required>
+                <input type="email" id="update-email" placeholder="Email" required>
+                <input type="text" id="update-address" placeholder="Address" required>
+                <button type="submit"><i class="fas fa-save"></i> Update</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
